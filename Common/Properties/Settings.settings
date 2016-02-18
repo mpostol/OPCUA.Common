@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CAS.UA.Model.Designer.Common.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="XmlSDKConfigurationNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://opcfoundation.org/UA/SDK/Configuration.xsd</Value>
+    </Setting>
+    <Setting Name="XmlSDKConfigurationPrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sdk</Value>
+    </Setting>
+    <Setting Name="XmlUATypesNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://opcfoundation.org/UA/2008/02/Types.xsd</Value>
+    </Setting>
+    <Setting Name="XmlUATypesPrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ua</Value>
+    </Setting>
+    <Setting Name="XmlSchemainstanceNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.w3.org/2001/XMLSchema-instance</Value>
+    </Setting>
+    <Setting Name="XmlSchemainstancePrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">xsi</Value>
+    </Setting>
+    <Setting Name="XmlSdkComNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ttp://opcfoundation.org/UA/SDK/COM/Configuration.xsd</Value>
+    </Setting>
+    <Setting Name="XmlSdkComPrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

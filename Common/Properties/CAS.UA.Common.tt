@@ -1,0 +1,37 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".nuspec" #>
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id><#= CASUACommonProduct #></id>
+    <version><#= CASUACommonVersion #></version>
+    <title>CAS UA common library.</title>
+    <authors><#=AssemblyCompany#></authors>
+    <owners><#=Owner#></owners>
+    <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/PR46-UA.Common</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>
+      The <#= CASUACommonProduct #> library contains a shared helpers used to process OPC UA data.
+      It contains Types definition and serialization classes.
+    </description>
+    <summary>
+      The <#= CASUACommonProduct #> library contains a shared helpers used to process OPC UA data.
+    </summary>
+    <releaseNotes>
+      API breaking changes:
+       - removed IServerConfiguration and renamed it to IConfiguration.
+       - removed IBaseDirectoryProvider
+    </releaseNotes>
+    <copyright><#=AssemblyCopyright#></copyright>
+    <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
+  </metadata>
+  <files>
+    <file src="..\bin\Release\CAS.UA.Common.dll" target="lib\net35\CAS.UA.Common.dll" />
+    <file src="..\bin\Release\CAS.UA.Common.dll.config" target="lib\net35\CAS.UA.Common.dll.config" />
+    <file src="..\bin\Release\CAS.UA.Common.pdb" target="lib\net35\CAS.UA.Common.pdb" />
+    <file src="..\bin\Release\CAS.UA.Common.XML" target="lib\net35\CAS.UA.Common.XML" />
+  </files>
+</package>
+
+<#@ include file = "..\..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>
