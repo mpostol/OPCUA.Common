@@ -8,7 +8,7 @@
     <owners>commsvr.com</owners>
     <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/PR46-UA.Common</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <developmentDependency>true</developmentDependency>
+    <developmentDependency>false</developmentDependency>
     <description>
       The CAS.UA.Common library contains a shared helpers used to process OPC UA data.
       It contains Types definition and serialization classes.
@@ -23,12 +23,16 @@
     </releaseNotes>
     <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
+    <dependencies>
+       <dependency id="OPC.DA.SDK.Core" version="2.00.108" />
+        <dependency id="OPC.UA.SDK.Core" version="1.01.326" />
+     </dependencies>
   </metadata>
   <files>
-    <file src="..\bin\Release\CAS.UA.Common.dll" target="lib\net35\CAS.UA.Common.dll" />
-    <file src="..\bin\Release\CAS.UA.Common.dll.config" target="lib\net35\CAS.UA.Common.dll.config" />
-    <file src="..\bin\Release\CAS.UA.Common.pdb" target="lib\net35\CAS.UA.Common.pdb" />
-    <file src="..\bin\Release\CAS.UA.Common.XML" target="lib\net35\CAS.UA.Common.XML" />
+    <file src="..\bin\Release\CAS.UACommon.dll" target="lib\net461\CAS.UACommon.dll" />
+    <file src="..\bin\Release\CAS.UACommon.dll.config" target="lib\net461\CAS.UACommon.dll.config" />
+    <file src="..\bin\Release\CAS.UACommon.pdb" target="lib\net461\CAS.UACommon.pdb" />
+    <file src="..\bin\Release\CAS.UACommon.xml" target="lib\net461\CAS.UACommon.xml" />
   </files>
 </package>
 
