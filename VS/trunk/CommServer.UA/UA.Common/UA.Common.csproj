@@ -44,11 +44,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CAS.OpcNetApi.350, Version=2.0.108.39166, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\..\PR32-ModelDesigner\packages\OPC.DA.SDK.Core.2.00.108\lib\net35\CAS.OpcNetApi.350.dll</HintPath>
+      <HintPath>..\packages\OPC.DA.SDK.Core.2.00.108\lib\net35\CAS.OpcNetApi.350.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Opc.Ua.Core">
-      <HintPath>..\..\CommonBinaries\OPCFSDK.Binaries\Opc.Ua.Core.dll</HintPath>
+    <Reference Include="Opc.Ua.Core, Version=1.1.326.0, Culture=neutral, PublicKeyToken=78aea80f6827b5ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\OPC.UA.SDK.Core.1.01.326\lib\net35\Opc.Ua.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
