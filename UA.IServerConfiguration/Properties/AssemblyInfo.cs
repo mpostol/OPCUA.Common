@@ -7,7 +7,7 @@
 //  $URL: svn://svnserver.hq.cas.com.pl/VS/trunk/PR39-CommonResources/T4Definitions/AssemblyInfo.tt $
 //  $Id: AssemblyInfo.tt 11296 2015-02-04 21:03:37Z mpostol $
 //
-//  Copyright (c) 2000-2015 CAS LODZ POLAND
+//  Copyright (c) 2000-2016 CAS LODZ POLAND
 //  +48 (42) 686 25 47
 //  techsupp@cas.eu
 //  www.cas.eu
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CAS")]
 [assembly: AssemblyProduct("CAS Address Space Model Designer")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2015 CAS LODZ POLAND")]
+[assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
 [assembly: AssemblyTrademark("CommServer")]
 [assembly: AssemblyCulture("")]
 [assembly: Guid("38295108-62D9-49F0-ADB9-2CDD96869FFD")]
