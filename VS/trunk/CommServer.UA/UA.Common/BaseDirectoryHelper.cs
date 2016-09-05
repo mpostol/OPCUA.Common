@@ -1,6 +1,6 @@
-﻿//<summary>
-//  Title   : Helper class and interface that provides information about base directory
-//  System  : Microsoft Visual C# .NET 2008
+﻿//_______________________________________________________________
+//  Title   : Helper class that provides information about base directory
+//  System  : Microsoft VisualStudio 2015 / C#
 //  $LastChangedDate$
 //  $Rev$
 //  $LastChangedBy$
@@ -11,14 +11,12 @@
 //  TEL: +48 (42) 686 25 47
 //  mailto://techsupp@cas.eu
 //  http://www.cas.eu
-//</summary>
+//_______________________________________________________________
 
-using CAS.CommServer.UA.Common;
-
-namespace CAS.CommServer.UA.ModelDesigner.Configuration
+namespace CAS.CommServer.UA.Common
 {
   /// <summary>
-  /// Helper class and interface that provides information about base directory
+  /// Helper class that provides information about base directory.
   /// </summary>
   public class BaseDirectoryHelper
   {
