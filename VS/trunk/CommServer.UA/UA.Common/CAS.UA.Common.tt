@@ -1,20 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".nuspec" #>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>CAS.UA.Common</id>
-    <version>3.00.02-Alpha</version>
+    <id><#= CASUACommonProduct #></id>
+    <version><#= CASUACommonVersion #><#= CASUACommonPreRelease #></version>
     <title>CAS UA common library.</title>
-    <authors>CAS</authors>
-    <owners>commsvr.com</owners>
+    <authors><#=AssemblyCompany#></authors>
+    <owners><#=Owner#></owners>
     <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/PR46-UA.Common</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>false</developmentDependency>
     <description>
-      The CAS.UA.Common library contains a shared helpers used to process OPC UA data.
+      The <#= CASUACommonProduct #> library contains a shared helpers used to process OPC UA data.
       It contains Types definition and serialization classes.
     </description>
     <summary>
-      The CAS.UA.Common library contains a shared helpers used to process OPC UA data.
+      The <#= CASUACommonProduct #> library contains a shared helpers used to process OPC UA data.
     </summary>
     <releaseNotes>
       API breaking changes:
@@ -22,7 +24,7 @@
        - removed IBaseDirectoryProvider
        - Changed OPC CLassic SDK dependency
     </releaseNotes>
-    <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
+    <copyright><#=AssemblyCopyright#></copyright>
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
     <dependencies>
        <dependency id="CAS.CommServer.OPCClassic.SDK.Core" version="2.01.106" />
@@ -30,9 +32,10 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\bin\Release\CAS.UACommon.dll" target="lib\net461\CAS.UACommon.dll" />
-    <file src="..\bin\Release\CAS.UACommon.dll.config" target="lib\net461\CAS.UACommon.dll.config" />
-    <file src="..\bin\Release\CAS.UACommon.xml" target="lib\net461\CAS.UACommon.xml" />
+    <file src="bin\Release\CAS.CommServer.UA.Common.dll" target="lib\net461\CAS.CommServer.UA.Common.dll" />
+    <file src="bin\Release\CAS.CommServer.UA.Common.dll.config" target="lib\net461\CAS.CommServer.UA.Common.dll.config" />
+    <file src="bin\Release\CAS.CommServer.UA.Common.xml" target="lib\net461\CAS.CommServer.UA.Common.xml" />
   </files>
 </package>
 
+<#@ include file = "..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>

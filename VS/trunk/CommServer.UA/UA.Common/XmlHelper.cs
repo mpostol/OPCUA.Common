@@ -13,12 +13,12 @@
 //  http://www.cas.eu
 //</summary>
 
-using CAS.UA.Common.Properties;
+using CAS.CommServer.UA.Common.Properties;
 using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace CAS.UA.Common
+namespace CAS.CommServer.UA.Common
 {
   /// <summary>
   /// <see cref="XmlHelper"/> provides 
