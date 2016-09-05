@@ -8,8 +8,8 @@
     <ProjectGuid>{37AFB65F-D781-4AF3-B90E-1F26A7D2BA7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CAS.UA.Common</RootNamespace>
-    <AssemblyName>CAS.UACommon</AssemblyName>
+    <RootNamespace>CAS.CommServer.UA.Common</RootNamespace>
+    <AssemblyName>CAS.CommServer.UA.Common</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -29,7 +29,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\CAS.UACommon.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\CAS.CommServer.UA.Common.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -39,7 +39,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\CAS.UACommon.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\CAS.CommServer.UA.Common.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
@@ -55,12 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IBaseDirectoryProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AssemblyInfo.tt</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Settings.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -81,13 +81,13 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
     </None>
-    <None Include="Properties\CAS.UA.Common.nuspec">
+    <None Include="CAS.UA.Common.nuspec">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CAS.UA.Common.tt</DependentUpon>
       <SubType>Designer</SubType>
     </None>
-    <None Include="Properties\CAS.UA.Common.tt">
+    <None Include="CAS.UA.Common.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>CAS.UA.Common.nuspec</LastGenOutput>
       <SubType>Designer</SubType>

@@ -1,6 +1,6 @@
 ﻿//_______________________________________________________________
 //  Title   : IBaseDirectoryProvider
-//  System  : Microsoft VisualStudio 2013 / C#
+//  System  : Microsoft VisualStudio 2015 / C#
 //  $LastChangedDate$
 //  $Rev$
 //  $LastChangedBy$
@@ -13,8 +13,7 @@
 //  http://www.cas.eu
 //_______________________________________________________________
 
-
-namespace CAS.CommServer.UA.ModelDesigner.Configuration
+namespace CAS.CommServer.UA.Common
 {
   /// <summary>
   /// Interface used to provide path to base directory used as a root of the configuration files.
