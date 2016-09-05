@@ -1,15 +1,15 @@
-﻿using CAS.CommServer.UA.Common;
+﻿
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace CAS.CommServer.UA.ModelDesigner.Configuration.UnitTests
+namespace CAS.CommServer.UA.Common.UnitTest
 {
   [TestClass]
-  public class Common
+  public class BaseDirectoryHelperUnitTest
   {
 
     [TestMethod]
-    [TestCategory("CAS.UA.SDK")]
+    [TestCategory("CAS.CommServer.UA.Common")]
     public void BaseDirectoryHelperTestMethod()
     {
       BaseDirectoryHelper _bd = BaseDirectoryHelper.Instance;
@@ -18,6 +18,16 @@ namespace CAS.CommServer.UA.ModelDesigner.Configuration.UnitTests
       _bd.SetBaseDirectoryProvider(new BaseDirectoryProvider());
       Assert.AreEqual<string>("BaseDirectoryProvider", _bd.GetBaseDirectory());
       _bd.SetBaseDirectoryProvider(null);
+    }
+    [TestMethod]
+    [TestCategory("CAS.CommServer.UA.Common")]
+    public void SetBaseDirectoryProviderNullTestMethod()
+    {
+      BaseDirectoryHelper _bd = BaseDirectoryHelper.Instance;
+      _bd.SetBaseDirectoryProvider(new BaseDirectoryProvider());
+      Assert.AreEqual<string>("BaseDirectoryProvider", _bd.GetBaseDirectory());
+      _bd.SetBaseDirectoryProvider(null);
+      Assert.IsTrue(String.IsNullOrEmpty(_bd.GetBaseDirectory()));
     }
     //private definitions.
     private class BaseDirectoryProvider : IBaseDirectoryProvider

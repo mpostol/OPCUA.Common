@@ -4,7 +4,7 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace CAS.UA.Common.UT
+namespace CAS.CommServer.UA.Common.UnitTest
 {
   [TestClass]
   public class XmlHelperUnitTest
