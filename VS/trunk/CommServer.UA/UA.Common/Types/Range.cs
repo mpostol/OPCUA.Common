@@ -13,6 +13,8 @@
 //  http://www.cas.eu
 //</summary>
 
+using Opc.Da;
+using Opc.Ua;
 using System;
 using System.IO;
 using System.Xml;
@@ -44,36 +46,36 @@ namespace CAS.UA.Common.Types
       }
     }
     /// <summary>
-    /// Gets the XML element representing the current value.
+    /// Gets the <see cref="ExtensionObject"/> represented as the  <see cref="XmlElement"/> encapsulating the current value.
     /// </summary>
-    /// <value>The XML element.</value>
+    /// <value>The <see cref="XmlElement"/> encapsulating current value as the <see cref="ExtensionObject"/>.</value>
     public XmlElement XmlElement
     {
       get
       {
-        XmlDocument xmldoc = new XmlDocument();
-        using ( MemoryStream buffer = new MemoryStream( 1000 ) )
+        XmlDocument _xmlDocument = new XmlDocument();
+        using ( MemoryStream _buffer = new MemoryStream( 1000 ) )
         {
-          m_XmlSerializer.Serialize( buffer, this );
-          buffer.Flush();
-          buffer.Position = 0;
-          xmldoc.Load( buffer );
+          m_XmlSerializer.Serialize( _buffer, this );
+          _buffer.Flush();
+          _buffer.Position = 0;
+          _xmlDocument.Load( _buffer );
         }
-        return ExtensionObject.GetXmlElement( Opc.Ua.ObjectIds.Range_Encoding_DefaultXml, xmldoc.DocumentElement );
+        return ExtensionObject.GetXmlElement( ObjectIds.Range_Encoding_DefaultXml, _xmlDocument.DocumentElement );
       }
     }
     /// <summary>
     /// Creates the range.
     /// </summary>
-    /// <param name="higheu">The high engineering unit.</param>
-    /// <param name="loweu">The low engineering unit.</param>
+    /// <param name="highEu">The high engineering unit.</param>
+    /// <param name="lowEu">The low engineering unit.</param>
     /// <returns></returns>
-    public static Range CreateRange(Opc.Da.ItemProperty higheu, Opc.Da.ItemProperty loweu)
+    public static Range CreateRange(ItemProperty highEu, ItemProperty lowEu)
     {
       Range rng = new Range()
       {
-        High = Convert.ToDouble( higheu.Value ),
-        Low = Convert.ToDouble( loweu.Value )
+        High = Convert.ToDouble( highEu.Value ),
+        Low = Convert.ToDouble( lowEu.Value )
       };
       return rng;
     }

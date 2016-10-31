@@ -25,43 +25,43 @@ namespace CAS.UA.Common.Types
   public partial class ExtensionObject
   {
     /// <summary>
-    /// Gets the XML element.
+    /// Gets the XML element encapsulating the <see cref="ExtensionObject"/> containing inner value represented by the <see cref="XmlElement"/>.
     /// </summary>
     /// <param name="identifier">The identifier.</param>
-    /// <param name="body">The body.</param>
+    /// <param name="body">The body encapsulating target value.</param>
     /// <returns></returns>
     public static XmlElement GetXmlElement(Opc.Ua.NodeId identifier, XmlElement body)
     {
-      ExtensionObject me = new ExtensionObject() { TypeId = new ExpandedNodeId() { Identifier = identifier.Format() } };
-      me.Body = body;
-      XmlDocument xmldoc = new XmlDocument();
-      using ( MemoryStream buffer = new MemoryStream( 1000 ) )
+      ExtensionObject _newExtensionObject = new ExtensionObject() { TypeId = new ExpandedNodeId() { Identifier = identifier.Format() } };
+      _newExtensionObject.Body = body;
+      XmlDocument _xmlDocument = new XmlDocument();
+      using ( MemoryStream _buffer = new MemoryStream( 1000 ) )
       {
-        m_Serializer.Serialize( buffer, me );
-        buffer.Flush();
-        buffer.Position = 0;
-        xmldoc.Load( buffer );
+        m_Serializer.Serialize( _buffer, _newExtensionObject );
+        _buffer.Flush();
+        _buffer.Position = 0;
+        _xmlDocument.Load( _buffer );
       }
-      return xmldoc.DocumentElement;
+      return _xmlDocument.DocumentElement;
     }
     /// <summary>
-    /// Gets the extension object.
+    /// Gets the extension object encapsulated by the <see cref="XmlElement"/>.
     /// </summary>
-    /// <param name="xmlElement">The XML element.</param>
+    /// <param name="xmlElement">The <see cref="XmlElement"/> instance encapsulating <see cref="ExtensionObject"/> as the xml format.</param>
     /// <returns></returns>
     public static ExtensionObject GetExtensionObject(XmlElement xmlElement)
     {
-      using ( MemoryStream buffer = new MemoryStream( 1000 ) )
+      using ( MemoryStream _buffer = new MemoryStream( 1000 ) )
       {
-        XmlWriterSettings stngs = new XmlWriterSettings() { ConformanceLevel = ConformanceLevel.Fragment };
-        using ( XmlWriter wrt = XmlWriter.Create( buffer, stngs ) )
-          xmlElement.WriteTo( wrt );
-        buffer.Flush();
-        buffer.Position = 0;
-        ExtensionObject m_Value;
-        using ( XmlReader rdr = XmlReader.Create( buffer ) )
-          m_Value = (ExtensionObject)m_Serializer.Deserialize( rdr );
-        return m_Value;
+        XmlWriterSettings _settings = new XmlWriterSettings() { ConformanceLevel = ConformanceLevel.Fragment };
+        using ( XmlWriter _xmlWriter = XmlWriter.Create( _buffer, _settings ) )
+          xmlElement.WriteTo( _xmlWriter );
+        _buffer.Flush();
+        _buffer.Position = 0;
+        ExtensionObject _returnValue;
+        using ( XmlReader _xmlReader = XmlReader.Create( _buffer ) )
+          _returnValue = (ExtensionObject)m_Serializer.Deserialize( _xmlReader );
+        return _returnValue;
       }
     }
     /// <summary>
