@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Debug\CAS.CommServer.UA.Common.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
+    <NoWarn>IDE0001,IDE0002,IDE0003</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -43,8 +44,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CAS.CommServer.OPCClassicSDK.Core, Version=2.1.1061.39650, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.CommServer.OPCClassic.SDK.Core.2.01.1061-Bravo\lib\net451\CAS.CommServer.OPCClassicSDK.Core.dll</HintPath>
+    <Reference Include="CAS.CommServer.OPCClassicSDK.Core, Version=2.1.1062.39746, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.CommServer.OPCClassic.SDK.Core.2.01.1062\lib\net451\CAS.CommServer.OPCClassicSDK.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Opc.Ua.Core, Version=1.1.326.0, Culture=neutral, PublicKeyToken=78aea80f6827b5ab, processorArchitecture=MSIL">

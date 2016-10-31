@@ -28,10 +28,10 @@ namespace CAS.CommServer.UA.Common
 
     /// <summary>
     /// Gets the XML serializer namespaces, which contains the XML namespaces and prefixes 
-    /// that the <see cref="System.Xml.Serialization.XmlSerializer"/> uses to generate qualified 
+    /// that the <see cref="XmlSerializer"/> uses to generate qualified 
     /// names in an XML-document instance.
     /// </summary>
-    /// <returns>XML namespaces and prefixes that the <see cref="System.Xml.Serialization.XmlSerializer"/> 
+    /// <returns>XML namespaces and prefixes that the <see cref="XmlSerializer"/> 
     /// uses to generate qualified names in an XML-document instance.</returns>
     public static XmlSerializerNamespaces GetXmlSerializerNamespaces()
     {
