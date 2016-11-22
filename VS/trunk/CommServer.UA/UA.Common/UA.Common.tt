@@ -28,7 +28,7 @@
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
     <dependencies>
       <dependency id="CAS.CommServer.OPCClassic.SDK.Core" version="2.01.1062" />
-      <dependency id="OPC.UA.SDK.Core" version="1.01.326" />
+      <dependency id="CAS.CommServer.UA.Stack.Core" version="1.01.3263" />
     </dependencies>
   </metadata>
   <files>

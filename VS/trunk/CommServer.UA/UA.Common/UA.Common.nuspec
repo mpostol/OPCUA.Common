@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>CAS.UA.Common</id>
-    <version>3.00.03</version>
+    <version>3.00.04</version>
     <title>CAS UA common library.</title>
     <authors>CAS</authors>
     <owners>commsvr.com</owners>
@@ -26,7 +26,7 @@
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
     <dependencies>
       <dependency id="CAS.CommServer.OPCClassic.SDK.Core" version="2.01.1062" />
-      <dependency id="OPC.UA.SDK.Core" version="1.01.326" />
+      <dependency id="CAS.CommServer.UA.Stack.Core" version="1.01.3263" />
     </dependencies>
   </metadata>
   <files>
