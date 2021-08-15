@@ -1,8 +1,10 @@
-# OPCUA.Common
+# OPCUA.Common Repository
 
-The OPCUA.Common library was derived from CAS.UA.Common.
+## Executive summary
 
-Intentioanlly this repository shoud provide NuGet definitios for all main components defined in the OPC UA specyfication and used esewhere, namely
+The `OPCUA.Common` repository was derived from CAS.UA.Common and now, by design, it is also a consistent part of the broader concept [Object-Oriented Internet](https://commsvr.gitbook.io/ooi/).
+
+Intentionally this repository should provide NuGet definitions for all main components defined in the OPC UA specification and used elsewhere outside the OPC UA application (client/server), namely:
 
 - common definitions
 - data serialization
