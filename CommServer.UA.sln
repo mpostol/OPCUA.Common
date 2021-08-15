@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA.Common", "UA.Common\UA.Common.csproj", "{37AFB65F-D781-4AF3-B90E-1F26A7D2BA7A}"
 EndProject
@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA.IServerConfiguration", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E33EFE0-344A-4D53-B094-4999EC7AC821}"
 	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
 		..\PR39-CommonResources\xsd\nuspec.xsd = ..\PR39-CommonResources\xsd\nuspec.xsd
 	EndProjectSection
 EndProject
@@ -50,5 +52,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D506423B-BA21-49E6-8C3B-88A771CA444E} = {7E33EFE0-344A-4D53-B094-4999EC7AC821}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27736C4D-E4DC-480C-B36B-216C8B161A57}
 	EndGlobalSection
 EndGlobal
