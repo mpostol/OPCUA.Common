@@ -2,7 +2,7 @@
 
 ## Executive summary
 
-The `OPCUA.Common` repository was derived from CAS.UA.Common and now, by design, it is also a consistent part of the broader concept [Object-Oriented Internet](https://commsvr.gitbook.io/ooi/).
+The `OPCUA.Common` repository was derived from `CAS.UA.Common` rel 3.00.05. The `CAS.UA.Common` software was written by CAS Lodz Poland. I am the founder and Executive Director of CAS. Now CAS is just an individual business activity conducted by me, so I decided to move this software to Open Source. By design, it is also a consistent part of the broader concept [Object-Oriented Internet](https://commsvr.gitbook.io/ooi/).
 
 Intentionally this repository should provide NuGet definitions for all main components defined in the OPC UA specification and used elsewhere outside the OPC UA application (client/server), namely:
 
@@ -11,6 +11,8 @@ Intentionally this repository should provide NuGet definitions for all main comp
 - address space management
 - configuration
 - TBD
+
+This project is aimed at software development and maintenance published as the Open-Source Software (OSS). OSS is a type of computer software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose. The `CommServer UA` software was written by CAS Lodz Poland. I am the founder and Executive Director of CAS. Now CAS is just an individual business activity conducted by me, so I decided to move this software to Open Source.
 
 ## Partnership program
 
