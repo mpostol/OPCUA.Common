@@ -2,15 +2,15 @@
 //<summary>
 //  Title   : Assembly info for: CAS.UACommon
 //  System  : Microsoft Visual C# .NET
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+//  $LastChangedDate: 2013-04-17 11:14:21 +0200 (Śr, 17 kwi 2013) $
+//  $Rev: 9137 $
+//  $LastChangedBy: mpostol $
+//  $URL: svn://svnserver.hq.cas.com.pl/VS/trunk/PR45-DataProviderDiagnostic/Properties/AssemblyInfo.tt $
+//  $Id: AssemblyInfo.tt 9137 2013-04-17 09:14:21Z mpostol $
 //
-//  Copyright (c) 2000-2016 CAS LODZ POLAND
-//  +48 (42) 686 25 47
-//  techsupp@cas.eu
+//  Copyright (C) 2019, Mariusz Postol LODZ POLAND.
+//  +48 (608) 619 899
+//  mpostol@cas.eu
 //  www.cas.eu
 //</summary>
 
@@ -19,11 +19,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("CAS.UACommon")]
-[assembly: AssemblyDescription("CAS CommServer Family: CAS.UACommon")]
+[assembly: AssemblyDescription("Object Oriented Internet: CAS.UACommon")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CAS")]
-[assembly: AssemblyProduct("CAS CommServer Family")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
+[assembly: AssemblyCompany("Mariusz Postol")]
+[assembly: AssemblyProduct("Object Oriented Internet")]
+[assembly: AssemblyCopyright("Copyright (C) 2019, Mariusz Postol LODZ POLAND.")]
 [assembly: AssemblyTrademark("CommServer")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]

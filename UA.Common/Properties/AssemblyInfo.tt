@@ -32,7 +32,7 @@ using System.Runtime.InteropServices;
 [assembly: Guid("9f3155f3-599c-4a1c-b3fb-16e8cc305051")]
 [assembly: AssemblyVersion("<#= CASUACommonVersion #>.*")]
 [assembly: AssemblyFileVersion("<#= CASUACommonVersion #>")]
-<#@ include file = "..\..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>
+<#@ include file = "..\..\SolutionMetadataTemplate.t4" #>
 <#+
 string m_AssemblyTitle = "CAS.UACommon";
 #>
