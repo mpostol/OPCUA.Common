@@ -58,7 +58,6 @@
   <ItemGroup>
     <Compile Include="BaseDirectoryHelper.cs" />
     <Compile Include="IBaseDirectoryProvider.cs" />
-    <Compile Include="OpcUaMissingDefinitions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
