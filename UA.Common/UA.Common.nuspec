@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>CAS.UA.Common</id>
-    <version>3.00.05</version>
+    <version>4.01.00-Alpha</version>
     <title>CAS UA common library.</title>
     <authors>Mariusz Postol</authors>
     <owners>Mariusz Postol</owners>
@@ -22,7 +22,7 @@
        - removed IBaseDirectoryProvider
        - Changed OPC CLassic SDK dependency
     </releaseNotes>
-    <copyright>Copyright (C) 2019, Mariusz Postol LODZ POLAND.</copyright>
+    <copyright>Copyright (C) 2021, Mariusz Postol LODZ POLAND.</copyright>
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
     <dependencies>
       <dependency id="CAS.CommServer.OPCClassic.SDK.Core" version="2.01.1062" />

@@ -1,20 +1,12 @@
 ﻿<#@ template debug="false" hostspecific="false" language="C#" #>
 <#@ output extension=".cs" #>
 
-//<summary>
-//  Title   : Assembly info for: <#=m_AssemblyTitle#>
-//  System  : Microsoft Visual C# .NET
-//  $LastChangedDate: 2013-04-17 11:14:21 +0200 (Śr, 17 kwi 2013) $
-//  $Rev: 9137 $
-//  $LastChangedBy: mpostol $
-//  $URL: svn://svnserver.hq.cas.com.pl/VS/trunk/PR45-DataProviderDiagnostic/Properties/AssemblyInfo.tt $
-//  $Id: AssemblyInfo.tt 9137 2013-04-17 09:14:21Z mpostol $
+//__________________________________________________________________________________________________
 //
-//  <#=AssemblyCopyright#>
-//  <#=Phone#>
-//  <#=Email#>
-//  <#=Url#>
-//</summary>
+//  Copyright (C) 2021, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GitHub: https://github.com/mpostol/OPC-UA-OOI/discussions
+//__________________________________________________________________________________________________
 
 using System.Reflection;
 using System.Runtime.CompilerServices;
