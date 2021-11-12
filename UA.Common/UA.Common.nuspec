@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>CAS.UA.Common</id>
-    <version>4.01.00-Alpha</version>
+    <id>UAOOI.OPCUA.Common</id>
+    <version>4.02.00-Bravo</version>
     <title>CAS UA common library.</title>
     <authors>Mariusz Postol</authors>
     <owners>Mariusz Postol</owners>
@@ -10,11 +10,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>false</developmentDependency>
     <description>
-      The CAS.UA.Common library contains a shared helpers used to process OPC UA data.
+      The UAOOI.OPCUA.Common library contains a shared helpers used to process OPC UA data.
       It contains Types definition and serialization classes.
     </description>
     <summary>
-      The CAS.UA.Common library contains a shared helpers used to process OPC UA data.
+      The UAOOI.OPCUA.Common library contains a shared helpers used to process OPC UA data.
     </summary>
     <releaseNotes>
       API breaking changes:

@@ -7,6 +7,7 @@
 //__________________________________________________________________________________________________
 
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("CAS.UACommon")]
@@ -15,9 +16,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany("Mariusz Postol")]
 [assembly: AssemblyProduct("Object Oriented Internet")]
 [assembly: AssemblyCopyright("Copyright (C) 2021, Mariusz Postol LODZ POLAND.")]
-[assembly: AssemblyTrademark("CommServer")]
+[assembly: AssemblyTrademark("OOI")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
 [assembly: Guid("9f3155f3-599c-4a1c-b3fb-16e8cc305051")]
-[assembly: AssemblyVersion("4.01.00.*")]
-[assembly: AssemblyFileVersion("4.01.00")]
+[assembly: AssemblyVersion("4.02.00.*")]
+[assembly: AssemblyFileVersion("4.02.00")]
