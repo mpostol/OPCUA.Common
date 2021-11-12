@@ -10,7 +10,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using UAOOI.OPCUA.Common.Properties;
 
-namespace CAS.CommServer.UA.Common
+namespace UAOOI.OPCUA.Common
 {
     /// <summary>
     /// <see cref="XmlHelper"/> provides
