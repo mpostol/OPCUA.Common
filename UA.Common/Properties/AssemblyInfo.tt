@@ -26,5 +26,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyFileVersion("<#= CASUACommonVersion #>")]
 <#@ include file = "..\..\SolutionMetadataTemplate.t4" #>
 <#+
-string m_AssemblyTitle = "CAS.UACommon";
+string m_AssemblyTitle = "UAOOI.OPCUA.Common";
 #>

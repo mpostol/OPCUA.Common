@@ -8,8 +8,8 @@
     <ProjectGuid>{37AFB65F-D781-4AF3-B90E-1F26A7D2BA7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CAS.CommServer.UA.Common</RootNamespace>
-    <AssemblyName>CAS.CommServer.UA.Common</AssemblyName>
+    <RootNamespace>UAOOI.OPCUA.Common</RootNamespace>
+    <AssemblyName>UAOOI.OPCUA.Common</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -29,7 +29,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\CAS.CommServer.UA.Common.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\UAOOI.OPCUA.Common.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
     <NoWarn>IDE0001,IDE0002,IDE0003</NoWarn>
   </PropertyGroup>
@@ -40,7 +40,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\CAS.CommServer.UA.Common.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\UAOOI.OPCUA.Common.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>

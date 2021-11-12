@@ -6,8 +6,8 @@
     <ProjectGuid>{10B46F61-3E76-4E0F-B23A-F16B0BC0D5BB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CAS.CommServer.UA.Common.UnitTest</RootNamespace>
-    <AssemblyName>CAS.CommServer.UA.CommonUnitTest</AssemblyName>
+    <RootNamespace>UAOOI.OPCUA.Common</RootNamespace>
+    <AssemblyName>UAOOI.OPCUA.CommonUnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

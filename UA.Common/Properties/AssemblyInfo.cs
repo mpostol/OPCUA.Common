@@ -10,8 +10,8 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("CAS.UACommon")]
-[assembly: AssemblyDescription("Object Oriented Internet: CAS.UACommon")]
+[assembly: AssemblyTitle("UAOOI.OPCUA.Common")]
+[assembly: AssemblyDescription("Object Oriented Internet: UAOOI.OPCUA.Common")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mariusz Postol")]
 [assembly: AssemblyProduct("Object Oriented Internet")]
