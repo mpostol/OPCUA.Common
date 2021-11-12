@@ -68,7 +68,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Types\Class1.cs" />
     <Compile Include="Types\ExtensionObject.cs" />
     <Compile Include="Types\Opc_Ua_Types.cs" />
     <Compile Include="Types\Range.cs" />
