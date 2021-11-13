@@ -1,4 +1,4 @@
-# OPCUA.Common Repository
+# OPCUA.Common
 
 ## Executive summary
 
@@ -30,5 +30,22 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 [Sponsorship]: https://github.commsvr.com/AboutPartnershipProgram.md.html
 [SponsorshipToBeInvolved]: https://github.commsvr.com/AboutPartnershipProgram.md.html#how-to-be-involved
+
+## How to follow up?
+
+GitHub offers `Discussions` as a space to connect with other members of the community. I hope that using the `Discussion` space you:
+
+- ask questions you’re wondering about
+- share ideas
+- engage with other community members
+- welcome others and are open-minded; remember that this is a community we build together
+
+I have activated the [Discussion][Discussion] space for this repository. Follow the  [Discussion][Discussion] to be in touch.
+
+To follow any activity in the repository, switch on the `Watch` functionality. If you find the project interesting, please star the repository. Starring a repository also shows appreciation to the repository maintainer for their work. You can star repositories and topics to keep track of projects you find interesting and discover related content in your news feed. Check out [Saving repositories with stars](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars) to get more.
+
+[Discussion]: https://github.com/mpostol/OPC-UA-OOI/discussions
+
 ## See also
+
 - [Code help documentation](https://mpostol.github.io/OPCUA.Common/Help)
