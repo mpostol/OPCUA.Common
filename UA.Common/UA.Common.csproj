@@ -44,10 +44,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CAS.CommServer.OPCClassicSDK.Core, Version=2.1.1062.39746, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.CommServer.OPCClassic.SDK.Core.2.01.1062\lib\net451\CAS.CommServer.OPCClassicSDK.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="CAS.CommServer.UA.Stack.Core, Version=1.1.3265.40471, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
       <HintPath>..\packages\CAS.CommServer.UA.Stack.Core.1.01.3265\lib\net451\CAS.CommServer.UA.Stack.Core.dll</HintPath>
       <Private>True</Private>
@@ -58,6 +54,13 @@
   <ItemGroup>
     <Compile Include="BaseDirectoryHelper.cs" />
     <Compile Include="IBaseDirectoryProvider.cs" />
+    <Compile Include="OpcDa\Convert.cs" />
+    <Compile Include="OpcDa\Quality.cs" />
+    <Compile Include="OpcDa\Namespace.cs" />
+    <Compile Include="OpcDa\PropertyID..cs" />
+    <Compile Include="OpcDa\IResult.cs" />
+    <Compile Include="OpcDa\ResultID.cs" />
+    <Compile Include="OpcDa\ItemProperty.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -108,6 +111,7 @@
   <ItemGroup>
     <Content Include="Types\UInt32.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

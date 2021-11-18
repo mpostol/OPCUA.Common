@@ -6,9 +6,9 @@
 //__________________________________________________________________________________________________
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Opc.Da;
 using System;
 using System.Xml;
+using UAOOI.OPCUA.Common.OpcDa;
 
 namespace UAOOI.OPCUA.Common.Types
 {
@@ -92,7 +92,7 @@ namespace UAOOI.OPCUA.Common.Types
                 this.ID = new PropertyID(100);
                 this.ItemName = nameof(ItemName);
                 this.ItemPath = nameof(ItemPath);
-                this.ResultID = Opc.ResultID.S_OK;
+                this.ResultID = ResultID.S_OK;
                 this.Value = m_Random.NextDouble();
             }
 

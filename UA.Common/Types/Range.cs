@@ -5,12 +5,13 @@
 //  To be in touch join the community at GitHub: https://github.com/mpostol/OPC-UA-OOI/discussions
 //__________________________________________________________________________________________________
 
-using Opc.Da;
 using Opc.Ua;
 using System;
 using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
+using UAOOI.OPCUA.Common.OpcDa;
+using Convert = System.Convert;
 
 namespace UAOOI.OPCUA.Common.Types
 {
