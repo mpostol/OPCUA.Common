@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>UAOOI.OPCUA.Common</id>
-    <version>4.02.00-Bravo</version>
+    <version>4.10.00-Charlie</version>
     <title>CAS UA common library.</title>
     <authors>Mariusz Postol</authors>
     <owners>Mariusz Postol</owners>

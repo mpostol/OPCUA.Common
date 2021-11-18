@@ -12,8 +12,8 @@ string AssemblyTrademark = "OOI";
 
 //CAS.CommServer.UA.Common  UA common library
 string CASUACommonProduct = "UAOOI.OPCUA.Common";
-string CASUACommonVersion = "4.02.00";
-string CASUACommonPreRelease = "-Bravo"; 
+string CASUACommonVersion = "4.10.00";
+string CASUACommonPreRelease = "-Charlie"; 
 
 //Note: 
 //Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliet, 
